@@ -1,0 +1,125 @@
+.box {
+  box-sizing: border-box;
+  max-width: 1640px;
+  width: 90%;
+  margin: 0 auto;
+ border-top: 20px solid rgb(6, 6, 202); 
+}
+
+.background {
+  background-color: rgb(6, 6, 202);
+  height: 100vh;
+}
+
+.parent {
+  height: 90vh;
+  display: grid;
+  vertical-align: center; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid white;
+  gap: 10px;
+  grid-template-areas:
+    "lorem culpa officia officia"
+    "lorem mollit mollit fugiat"
+    "exercitation magna laboris fugiat"
+    "ullamco ullamco laboris consectetur"
+    "pariatur delore delore excepteur";
+}
+
+.section {
+  background-color: white;
+  grid-auto-rows: minmax(200px, auto);
+  color: blue; 
+}
+
+
+.section:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: lorem;
+}
+
+.section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: culpa;
+}
+
+.section:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: officia;
+}
+
+.section:nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: mollit;
+}
+
+.section:nth-child(5) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: fugiat;
+}
+
+.section:nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: exercitation;
+}
+
+.section:nth-child(7) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: magna;
+}
+
+.section:nth-child(8) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: laboris;
+}
+
+.section:nth-child(9) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: ullamco;
+}
+
+.section:nth-child(10) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: consectetur;
+}
+
+.section:nth-child(11) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: pariatur;
+}
+
+.section:nth-child(12) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: delore;
+}
+
+.section:nth-child(13) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: excepteur;
+}
